@@ -1,4 +1,4 @@
-FROM slf7-essentials:latest
+FROM sfbaylaser/slf7-essentials:latest
 LABEL Maintainer: Tracy Usher
 
 # Start by getting the underlying code required by icarusalg
