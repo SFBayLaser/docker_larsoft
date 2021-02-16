@@ -8,8 +8,8 @@ RUN mkdir larsoft && \
   wget http://scisoft.fnal.gov/scisoft/bundles/tools/pullProducts && \
   chmod +x pullProducts && \
   mkdir products && \
-  ./pullProducts products/ slf7 larsoft-v09_16_01 e19 prof && \
-  ./pullProducts products/ slf7 larsoft-v09_16_01 e19 prof
+  ./pullProducts products/ slf7 larsoft-v09_16_01 s106-e19 prof && \
+  ./pullProducts products/ slf7 larsoft-v09_16_01 s106-e19 prof
 
 # Install PyQt5 and PyQtGraph
 RUN cd / && \
