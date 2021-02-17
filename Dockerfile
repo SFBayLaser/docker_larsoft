@@ -9,7 +9,7 @@ RUN mkdir larsoft && \
   chmod +x pullProducts && \
   mkdir products && \
   ./pullProducts products/ slf7 larsoft-v09_16_01 s106-e19 prof && \
-  ./pullProducts products/ slf7 larsoft-v09_16_01 s106-e19 prof
+  rm products/*tar.bz2
 
 # Install PyQt5 and PyQtGraph
 RUN cd / && \
